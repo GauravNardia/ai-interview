@@ -11,6 +11,7 @@ const Page = async () => {
       <Agent
         userName={user?.name!}
         userId={user?.id}
+        // @ts-ignore
         profileImage={user?.profileURL}
         type="generate"
       />
